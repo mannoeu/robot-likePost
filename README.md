@@ -2,13 +2,13 @@
 Like automation on instagram posts
 
 ## Uso
-Install o puppeteer
+Install dependencies
 ```
-$ yarn add puppeteer
+$ yarn
 ```
 Change username and password in the index.js file
 ```
-$ await ig.login('nomedeusuario','senha');
+$ await ig.login('username','password');
 ```
 Change the content hashtags for searching posts in the index.js file
 ```
